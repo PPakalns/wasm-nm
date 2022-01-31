@@ -16,7 +16,7 @@ required-features = ["exe"]
 
 [dependencies]
 failure = "0.1.1"
-parity-wasm = "0.19.0"
+parity-wasm = { version="0.42.0", features = ["multi_value"]}
 
 [dependencies.clap]
 optional = true
